@@ -6,10 +6,7 @@ export const HeaderWrapper = styled.div `
 	height: 58px;
 	border-bottom: 1px solid #f0f0f0;
 `
-export const Logo = styled.a.attrs({
-	href: '/'
-})
-`
+export const Logo = styled.a.attrs({href: '/'})`
   position: absolute;
   top: 0;
   left: 0;
@@ -48,7 +45,7 @@ export const NavItem = styled.div `
 export const SearchWrapper = styled.div `
 	position:relative;
 	float:left;
-	.iconfont{
+	.zoom{
 		position:absolute;
 		width:30px;
 		height:30px;
@@ -64,10 +61,7 @@ export const SearchWrapper = styled.div `
 	}
 `
 
-export const NavSearch = styled.input.attrs({
-	placeholder: '搜索'
-})
-`
+export const NavSearch = styled.input.attrs({placeholder: '搜索'})`
   width:160px;
   height:38px;
   padding: 0 35px 0 20px;
@@ -120,6 +114,15 @@ export const SearchInfoTitle = styled.div `
 export const SearchInfoSwitch = styled.span `
 	float:right;
 	font-size:13px;
+	cursor: pointer;
+	.spin{
+		display:block;
+		float:left;
+		font-size:12px;
+		margin-right:2px;
+		transition: all .2s ease-in;
+		transform-origin:center center;
+	}
 `
 export const SearchInfoList = styled.div `
 	overflow:hidden;
