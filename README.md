@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+1.项目布局使用styled-components和Reset.css
+2.项目中出现的动画使用react-transition-group
+3.项目中的图标使用iconfont
+4.项目中的数据使用react-redux进行管理
+5.使用combineReducers对数据进行拆分处理
+6.使用immutable.js来管理store中的数据，避免无意中修改了原始state中的值
+7.使用redux-immutable统一数据格式
