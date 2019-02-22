@@ -76,3 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 6.使用immutable.js来管理store中的数据，避免无意中修改了原始state中的值<br>
 7.使用redux-immutable统一数据格式<br>
 8.使用redux-thunk结合axios来发送异步请求<br>
+9.使用react-loadable进行异步组件加载<br>

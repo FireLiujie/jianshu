@@ -7,10 +7,18 @@ import {
 import {
 	reducer as homeReducer
 } from '../pages/home/store'
+import {
+	reducer as DetailReducer
+} from '../pages/detail/store'
+import {
+	reducer as LoginReducer
+} from '../pages/login/store'
 
 const reducer = combineReducers({
 	header: headerReducer,
-	home: homeReducer
+	home: homeReducer,
+	detail: DetailReducer,
+	login: LoginReducer
 })
 
 export default reducer
