@@ -1,0 +1,38 @@
+{
+  "sucess": true,
+  "data" :{
+    "topicList": [{
+      "id": 1,
+      "title": "社会热点",
+      "imgUrl": "//upload-images.jianshu.io/upload_images/2100084-6efc39e6cf6ddf5e?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+    },
+    {
+      "id": 2,
+      "title": "手绘",
+      "imgUrl": "//upload-images.jianshu.io/upload_images/2100084-6efc39e6cf6ddf5e?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+    }
+  ],
+  "articleList": [{
+      "id": 1,
+      "title": "2月起，深圳市985/211一年名校本科启动",
+      "desc": "悟空导语： 男人在感情中一般扮演主动出击一方，出击的次数多了，就会发现有的女人好追，有的女人不好追。对于大部分男人而言，都希望对方是那个好追的对...",
+      "imgUrl": "http://upload-images.jianshu.io/upload_images/14938882-2b3135ca77c5f696.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+    },
+    {
+      "id": 2,
+      "title": "新版小龙女被吐槽应该去演雕，各版本小龙女哪个才最符合原著？",
+      "desc": "【本文系超级卡司原创，作者：冉小星，未经授权禁止转载】 新版《神雕侠侣》发布了定妆照，饰演小龙女的毛晓慧不仅自己凭借 “鼻影”上了热搜，还成功把..",
+      "imgUrl": "http://upload-images.jianshu.io/upload_images/4635728-889381ccb773aa11?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+    }
+  ],
+  "recommendList": [{
+      "id": 1,
+      "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+    }
+  ]
+  }
+}
